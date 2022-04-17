@@ -1,4 +1,5 @@
 
+
 /*<br> 5. Write a program to find all the prime numbers between erotosthenes sieve method.
     <br> int input_array_size();
     <br> void init_array(int n, int a[n];

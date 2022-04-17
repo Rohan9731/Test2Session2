@@ -17,14 +17,11 @@ int compute(int n ,int a[n])
 {
     int i,sum=0;
     a[0]=0;a[1]=1;
-  //int a[1]={0,1};
     for(i=2;i<n;i++)
     {
      sum=a[i-2]+a[i-1];
-     //a[i-2]=a[i-1];
     a[i]=sum;
     }
-    sum=a[n-1]+a[n-2];
     if(n<=1)
 {
   sum=0;
